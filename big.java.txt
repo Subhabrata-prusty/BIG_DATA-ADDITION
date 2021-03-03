@@ -1,0 +1,18 @@
+import java.math.*;
+class Big_Data{
+
+	public static void addition()
+	{
+         BigInteger b1,b2,result;
+         b1=new BigInteger("123456789");
+         b2=new BigInteger("23456789098765432");
+         result=b1.add(b2);
+         System.out.println("addition="+result);
+	
+	}
+
+	public static void main(String[] args) {
+		
+		addition();
+	}
+}
